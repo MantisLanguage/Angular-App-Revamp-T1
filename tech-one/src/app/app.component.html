@@ -471,7 +471,16 @@
         </g>
       </svg>
     </a>
+    <label>
+      This is your first form:
+      <input type="text" [formControl]="name">
+    </label>
+    
 
+    <div class="search">
+      <input class="form-control" type="text" name="search"  autocomplete="off" placeholder="&#61442;  Start searching">
+    </div>
+    
     <a class="circle-link" title="Protractor" href="https://www.protractortest.org/" target="_blank" rel="noopener">
       <svg alt="Angular Protractor Logo" xmlns="http://www.w3.org/2000/svg" width="21.81" height="23.447" viewBox="0 0 21.81 23.447">
         <g id="Group_26" data-name="Group 26" transform="translate(0)">
@@ -504,8 +513,8 @@
       </svg>
     </a>
   </div>
-  
-  <app-name-editor></app-name-editor>
+
+  <!-- <app-name-editor></app-name-editor> -->
 
   <!-- Footer -->
   <footer>
